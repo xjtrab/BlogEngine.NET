@@ -21,7 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <TypeScriptToolsVersion>1.6</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -558,6 +558,7 @@
     <Content Include="Custom\Themes\Standard-2015\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Custom\Themes\Standard-2015\images\carrow.png" />
     <Content Include="Custom\Themes\Standard-2015\images\facebook.png" />
+    <Content Include="Custom\Themes\Standard-2015\images\Github.png" />
     <Content Include="Custom\Themes\Standard-2015\images\googleplus.png" />
     <Content Include="Custom\Themes\Standard-2015\images\logo.png" />
     <Content Include="Custom\Themes\Standard-2015\images\rss.png" />
@@ -760,6 +761,7 @@
     <Content Include="admin\themes\standard\scss\rtl\_rtl.tables.scss" />
     <Content Include="admin\themes\standard\scss\styles.scss" />
     <Content Include="Custom\Widgets\CategoryList\edit.cshtml" />
+    <None Include="Properties\PublishProfiles\public.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
